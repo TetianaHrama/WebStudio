@@ -5,3 +5,55 @@
     --footer-background:#2196F3;
     --section-background:#F5F4FA;
 }
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*how to make it like in halves*/
+header a.half-and-half {
+    color: #2196F3;
+}
+
+
+header nav ul li:nth-child(2) a {
+    color: #2196F3;
+}
+header ul li:nth-child(1) a{
+    color: #2196F3;
+}
+
+main section:first-child button {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+main section h1{
+    color: #ffffff;
+}
+main section:nth-child(1){
+    background: #212121;
+}
+main section li p{
+    color: #757575;
+}
+main section h3{
+    background: #F5F4FA;
+}
+footer{
+    background: #212121;
+}
+footer a{
+    color:#2196F3 ;
+}
+footer address:nth-child(2) ul li p{
+    color: #ffffff;
+}
+footer address:nth-child(2) ul li a{
+    color:#757575
+}
