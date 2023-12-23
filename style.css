@@ -16,19 +16,19 @@ header {
 
 /*how to make it like in halves*/
 header a.half-and-half {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
-header nav ul li:nth-child(2) a {
-    color: #2196F3;
+header nav li:nth-child(2) a {
+    color: var(--accent-color);
 }
 header ul li:nth-child(1) a{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 main section:first-child button {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -39,21 +39,21 @@ main section h1{
 main section:nth-child(1){
     background: #212121;
 }
-main section li p{
-    color: #757575;
+main section p{
+    color: var(--main-text-color);
 }
 main section h3{
-    background: #F5F4FA;
+    background: var(--section-background);
 }
 footer{
-    background: #212121;
+    background: var(--titles-color);
 }
 footer a{
-    color:#2196F3 ;
+    color: var(--footer-background);
 }
-footer address:nth-child(2) ul li p{
+footer address:nth-child(2) p{
     color: #ffffff;
 }
-footer address:nth-child(2) ul li a{
-    color:#757575
+footer address:nth-child(2) a{
+    color:var(--main-text-color)
 }
