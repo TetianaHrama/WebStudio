@@ -8,51 +8,135 @@
 
 header {
     background-color: #ffffff;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-/*how to make it like in halves*/
+
 header a.half-and-half {
     color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
-
-
+span.ingredient {
+    color: var(--titles-color);
+    
+}
+/*I don't know how to do it in line*/
 header nav li:nth-child(2) a {
     color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
-header ul li:nth-child(1) a{
+header ul a{
     color: var(--accent-color);
+    font-size: 14px;
+    font-family:'Roboto';
+    text-align: center;
 }
-
+/*how to move the button and text right in the center of the background */
 main section:first-child button {
     background-color: var(--accent-color);
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
+    font-family: 'Roboto';
+    text-align: center;
 }
 main section h1{
-    color: #ffffff;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
 }
 main section:nth-child(1){
     background: #212121;
+    width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
 }
 main section p{
     color: var(--main-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
 }
 main section h3{
     background: var(--section-background);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+h2 {
+    color: var(--titles-color);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+h3.team-section {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 footer{
     background: var(--titles-color);
 }
-footer a{
-    color: var(--footer-background);
-}
-footer address:nth-child(2) p{
+footer a.half-and-half{
     color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+footer span.ingredient{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+footer address:nth-child(2) li{
+    color: #ffffff;
+    font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
 }
 footer address:nth-child(2) a{
     color:var(--main-text-color)
