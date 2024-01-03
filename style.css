@@ -4,10 +4,12 @@
     --accent-color:#2196F3;
     --footer-background:#2196F3;
     --section-background:#F5F4FA;
+    --white-text-color: #ffffff;
+
 }
 
 header {
-    background-color: #ffffff;
+    background-color: var(--white-text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,46 +24,50 @@ header a.half-and-half {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
+    text-decoration: none;
 }
 span.ingredient {
     color: var(--titles-color);
     
 }
 /*I don't know how to do it in line*/
-header nav li:nth-child(2) a {
+header li a {
     color: var(--accent-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.28px;
+    text-decoration: none;
 }
-header ul a{
-    color: var(--accent-color);
-    font-size: 14px;
-    font-family:'Roboto';
-    text-align: center;
+.gallery-list{
+background-color: var(--section-background);
+}
+.gallery-link{
+    color: var(--titles-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+    text-decoration: none;
 }
 /*how to move the button and text right in the center of the background */
 main section:first-child button {
     background-color: var(--accent-color);
-    color: #fff;
+    color: var(--white-text-color);
     padding: 10px 20px;
     font-size: 16px;
     font-family: 'Roboto';
     text-align: center;
 }
 main section h1{
-    color: #FFF;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto';
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 2.64px;
     text-transform: uppercase;
 }
 main section:nth-child(1){
@@ -76,8 +82,6 @@ main section p{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.42px;
 }
 main section h3{
     background: var(--section-background);
@@ -85,8 +89,6 @@ main section h3{
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 h2 {
@@ -97,7 +99,6 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.08px;
 }
 h3.team-section {
     text-align: center;
@@ -106,19 +107,18 @@ h3.team-section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.08px;
 }
 footer{
     background: var(--titles-color);
 }
 footer a.half-and-half{
-    color: #ffffff;
+    color: var(--white-text-color);
     font-family: 'Raleway';
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
+    text-decoration: none;
 }
 footer span.ingredient{
     color: var(--accent-color);
@@ -127,17 +127,15 @@ footer span.ingredient{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
 }
 footer address:nth-child(2) li{
-    color: #ffffff;
+    color: var(--white-text-color);
     font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
 }
 footer address:nth-child(2) a{
-    color:var(--main-text-color)
+    color:var(--main-text-color);
+    text-decoration: none;
 }
