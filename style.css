@@ -7,7 +7,12 @@
     --white-text-color: #ffffff;
 
 }
-
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
 header {
     background-color: var(--white-text-color);
     display: flex;
@@ -25,6 +30,11 @@ header a.half-and-half {
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+    padding-left: 215px;
+    padding-right: 1240px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin: 0 auto;
 }
 span.ingredient {
     color: var(--titles-color);
@@ -39,6 +49,9 @@ header li a {
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 92px;
 }
 .gallery-list{
 background-color: var(--section-background);
