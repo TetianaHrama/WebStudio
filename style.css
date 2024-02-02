@@ -17,30 +17,27 @@ header {
     background-color: var(--white-text-color);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
+}
+body{
+    font-family: 'Roboto';
 }
 
 
 header a.half-and-half {
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
-    padding-left: 215px;
-    padding-right: 1240px;
-    padding-top: 24px;
-    padding-bottom: 25px;
     margin: 0 auto;
 }
 span.ingredient {
     color: var(--titles-color);
     
 }
-/*I don't know how to do it in line*/
 header li a {
     color: var(--accent-color);
     font-family: 'Roboto';
@@ -65,7 +62,6 @@ font-style: normal;
 font-weight: 500;
     text-decoration: none;
 }
-/*how to move the button and text right in the center of the background */
 main section:first-child button {
     background-color: var(--accent-color);
     color: var(--white-text-color);
@@ -149,7 +145,7 @@ footer a.half-and-half{
 }
 footer span.ingredient{
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
