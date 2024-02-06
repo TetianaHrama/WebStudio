@@ -10,13 +10,16 @@
 ul{
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+}
 li{
     display: inline-block;
 }
-header {
+.header {
     background-color: var(--white-text-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;  
 }
 body{
@@ -24,17 +27,17 @@ body{
 }
 
 
-header a.half-and-half {
+.main-link {
     color: var(--accent-color);
     font-family: 'Raleway';
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
+    line-height: 1.3px;
+    
     margin: 0 auto;
 }
-span.ingredient {
+.ingredient {
     color: var(--titles-color);
     
 }
@@ -45,7 +48,6 @@ header li a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 92px;
@@ -55,12 +57,11 @@ background-color: var(--section-background);
 }
 .gallery-link{
     color: var(--titles-color);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-    text-decoration: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
 }
 main section:first-child button {
     background-color: var(--accent-color);
@@ -81,7 +82,7 @@ main section h1{
 }
 .gallery-title{
     color: var(--titles-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -131,10 +132,10 @@ main section h3{
     font-weight: 700;
     line-height: normal;
 }
-footer{
+.footer{
     background: var(--titles-color);
 }
-footer a.half-and-half{
+.main-footer-link{
     color: var(--white-text-color);
     font-family: 'Raleway';
     font-size: 26px;
@@ -143,7 +144,7 @@ footer a.half-and-half{
     line-height: normal;
     text-decoration: none;
 }
-footer span.ingredient{
+.footer-ingredient{
     color: var(--accent-color);
     font-family: 'Raleway';
     font-size: 26px;
@@ -151,14 +152,13 @@ footer span.ingredient{
     font-weight: 700;
     line-height: normal;
 }
-footer address:nth-child(2) li{
+.footer-item{
     color: var(--white-text-color);
     font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
-footer address:nth-child(2) a{
+.footer-link{
     color:var(--main-text-color);
-    text-decoration: none;
 }
