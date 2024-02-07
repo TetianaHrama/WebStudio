@@ -13,13 +13,6 @@
     padding: 15px;
     border: 1px solid red;
 }
-
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
 .header {
     background-color: var(--white-text-color);
     display: flex;
@@ -29,9 +22,6 @@ a{
 body{
     font-family: 'Roboto';
 }
-
-
-
 .main-link {
     color: var(--accent-color);
     font-family: 'Raleway';
@@ -39,12 +29,14 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 1.3px;
-    
-    margin: 0 auto;
+    padding: 25px;
 }
 .ingredient {
     color: var(--titles-color);
     
+}
+.nav-item{
+    display: inline-block;
 }
 .nav-link{
     color: var(--accent-color);
@@ -53,9 +45,7 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 1.3px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-right: 92px;
+    padding: 35px;
 }
 .list-link{
     color: var(--accent-color);
