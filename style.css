@@ -13,9 +13,6 @@ ul{
 a{
     text-decoration: none;
 }
-li{
-    display: inline-block;
-}
 .header {
     background-color: var(--white-text-color);
     display: flex;
@@ -41,16 +38,23 @@ body{
     color: var(--titles-color);
     
 }
-header li a {
+.nav-link{
     color: var(--accent-color);
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.3px;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 92px;
+}
+.list-link{
+    color: var(--accent-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
 }
 .gallery-list{
 background-color: var(--section-background);
