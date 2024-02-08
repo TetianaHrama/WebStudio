@@ -8,7 +8,7 @@
 
 }
 .container{
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -20,6 +20,9 @@
 }
 body{
     font-family: 'Roboto';
+}
+li{
+    display: inline-block;
 }
 .main-link {
     color: var(--accent-color);
@@ -90,16 +93,9 @@ body{
     border-radius: 4px;
 }
 .solution-list{
-    padding: 95px;
+    padding: 95px 215px; 
 }
-.detail-paragraph{
-    color: var(--main-text-color);
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-}
-main section h3{
+.detail-title{
     background: var(--section-background);
     font-family: 'Roboto';
     font-size: 14px;
@@ -107,22 +103,46 @@ main section h3{
     font-weight: 700;
     text-transform: uppercase;
 }
+.detail-paragraph{
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    width: 270px;
+    font-style: normal;
+    font-weight: 400;
+}
 .title-doing {
     color: var(--titles-color);
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto';
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 95px;
 }
+/*when I want to put paddings(95px 215px) on the doing-item, there all just moving between pictures and don't fit into the container*/
 .team-section {
     text-align: center;
     font-family: 'Roboto';
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.3px;
+}
+.member-title{
+    color: var(--titles-color);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}
+.team-paragraph{
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 .gallery-list{
     background-color: var(--section-background);
@@ -142,9 +162,9 @@ main section h3{
     font-style: normal;
     font-weight: 700;
 }
-.gallery-paragraph {
+.gallery-paragraph{
     color: var(--main-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -178,4 +198,4 @@ main section h3{
 }
 .footer-link{
     color:var(--main-text-color);
-}
+} 
