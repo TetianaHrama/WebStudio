@@ -41,7 +41,7 @@ li{
     display: inline-block;
 }
 .nav-link{
-    color: var(--accent-color);
+    color: var(--titles-color);
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
@@ -49,18 +49,23 @@ li{
     line-height: 1.3px;
     padding: 32px;
 }
+.nav-link:hover{
+    color: var(--accent-color);
+}
 .list-item{
     display: inline-block;
 }
 .list-link{
-    color: var(--accent-color);
+    color: var(--main-text-color);
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     padding: 32px;
 }
-
+.list-link:hover{
+    color: var(--accent-color);
+}
 .section-solution{
     background: var(--titles-color);
     height: 600px;
@@ -79,7 +84,7 @@ li{
 
 }
 .solutions-button{
-    display: flex;
+    display: block;
     justify-content: center;
     background-color: var(--accent-color);
     color: var(--white-text-color);
@@ -92,8 +97,14 @@ li{
     border: none;
     border-radius: 4px;
 }
+
 .solution-list{
-    padding: 95px 215px; 
+    padding-top: 94px; 
+    padding-bottom: 94px;
+}
+.solution-item{
+    padding-left: 30px;
+    width: 270px;
 }
 .detail-title{
     background: var(--section-background);
@@ -107,7 +118,6 @@ li{
     color: var(--main-text-color);
     font-family: 'Roboto';
     font-size: 14px;
-    width: 270px;
     font-style: normal;
     font-weight: 400;
 }
@@ -122,7 +132,10 @@ li{
     line-height: normal;
     padding: 95px;
 }
-/*when I want to put paddings(95px 215px) on the doing-item, there all just moving between pictures and don't fit into the container*/
+.doing-image{
+    width: 370px;
+    padding-left: 30px;
+}
 .team-section {
     text-align: center;
     font-family: 'Roboto';
@@ -130,12 +143,17 @@ li{
     font-style: normal;
     font-weight: 700;
     line-height: 1.3px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 .member-title{
     color: var(--titles-color);
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .team-paragraph{
     color: var(--main-text-color);
@@ -143,6 +161,15 @@ li{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    padding-bottom: 10px;
+}
+.team-image{
+    width: 270px;
+}
+.section-customer{
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .gallery-list{
     background-color: var(--section-background);
