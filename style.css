@@ -137,7 +137,6 @@ li{
     padding-left: 30px;
 }
 .team-section {
-    text-align: center;
     font-family: 'Roboto';
     font-size: 36px;
     font-style: normal;
@@ -146,8 +145,14 @@ li{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+.team-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
 .member-title{
+    display: flex;
+    justify-content: center;
     color: var(--titles-color);
     font-family: 'Roboto';
     font-size: 16px;
@@ -157,6 +162,8 @@ li{
 }
 .team-paragraph{
     color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
@@ -165,11 +172,21 @@ li{
 }
 .team-image{
     width: 270px;
+    display: flex;
+    justify-content: center;
 }
 .section-customer{
-    text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.customer-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+.customer-item{
+    padding-top: 50px;
+    padding-left: 70px;
 }
 .gallery-list{
     background-color: var(--section-background);
