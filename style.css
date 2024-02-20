@@ -68,7 +68,7 @@ li{
 }
 .section-solution{
     background: var(--titles-color);
-    height: 600px;
+    padding-bottom: 280px;
     margin: 0 auto;
 }
 .solutions-title{
@@ -78,7 +78,6 @@ li{
     font-weight: 900;
     text-transform: uppercase;
     padding-top: 200px;
-    padding-bottom: 280px;
     text-align: center;
     align-items: center;
 
@@ -216,6 +215,7 @@ li{
 .footer{
     background: var(--titles-color);
     height: 252px;
+    padding: 60px 0;
 }
 .main-footer-link{
     color: var(--white-text-color);
@@ -224,7 +224,7 @@ li{
     font-style: normal;
     font-weight: 700;
     line-height: 1.3px;
-    padding: 25px;
+    padding: 38px;
     text-decoration: none;
 }
 .footer-ingredient{
@@ -238,7 +238,6 @@ li{
 .footer-item{
     display: flex;
     flex-direction: column;
-    margin-top: 9px;
     color: var(--white-text-color);
     font-family: 'Roboto';
     font-size: 14px;
