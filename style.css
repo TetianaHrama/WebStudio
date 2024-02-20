@@ -72,20 +72,19 @@ li{
     margin: 0 auto;
 }
 .solutions-title{
-    display: flex;
-    justify-content: center;
     color: var(--white-text-color);
     font-family: 'Roboto';
     font-size: 44px;
     font-weight: 900;
     text-transform: uppercase;
-    padding: 200px 280px;
+    padding-top: 200px;
+    padding-bottom: 280px;
     text-align: center;
+    align-items: center;
 
 }
 .solutions-button{
     display: block;
-    justify-content: center;
     background-color: var(--accent-color);
     color: var(--white-text-color);
     width: 250px;
@@ -93,7 +92,8 @@ li{
     padding: 20px 20px;
     font-size: 16px;
     font-family: 'Roboto';
-    margin: 0 auto; 
+    margin: 30px auto; 
+    text-align: center;
     border: none;
     border-radius: 4px;
 }
@@ -215,6 +215,7 @@ li{
 }
 .footer{
     background: var(--titles-color);
+    height: 252px;
 }
 .main-footer-link{
     color: var(--white-text-color);
@@ -222,7 +223,8 @@ li{
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.3px;
+    padding: 25px;
     text-decoration: none;
 }
 .footer-ingredient{
@@ -231,9 +233,12 @@ li{
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.3px;
 }
 .footer-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
     color: var(--white-text-color);
     font-family: 'Roboto';
     font-size: 14px;
