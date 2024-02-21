@@ -150,7 +150,7 @@ li{
     width: 270px;
     border-radius: 10px;
 }
-/*In the layout there's no icons so I don't know what to do with them*/
+/*In the layout there's no icons so I don't know what to do with it*/
 .team-title{
     text-align: center;
     padding-bottom: 50px;
@@ -175,8 +175,6 @@ li{
 }
 .team-image{
     width: 270px;
-    display: flex;
-    justify-content: center;
 }
 .section-customer{
     padding-top: 94px;
@@ -192,6 +190,11 @@ li{
     justify-content: center;
     gap: 90px;
     /*I don't know how to measure gap because there's no on the layout*/
+}
+.gallery-list{
+    display: flex;
+    justify-content: center;
+    gap: 11px;
 }
 .gallery-link{
     color: var(--titles-color);
@@ -212,6 +215,7 @@ li{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    padding: 24px;
 }
 .gallery-paragraph{
     color: var(--main-text-color);
@@ -219,9 +223,15 @@ li{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    padding: 24px;
 }
 .second-gallery-section{
-    flex-basis: calc(100%-60px/3);
+    flex-basis: calc((100% - 90px) /3);
+    /*I don't know why it don't work properly:(*/
+}
+.second-gallery-item{
+    border: 2px solid #EEEE;
+    
 }
 .footer{
     background: var(--titles-color);
