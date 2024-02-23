@@ -12,7 +12,7 @@
     margin: 0 auto;
     padding: 15px;
 }
-.header {
+.header>.container{
     background-color: var(--white-text-color);
     display: flex;
     justify-content: space-around;
@@ -98,12 +98,14 @@ li{
 }
 
 .solution-list{
+    display: flex;
+    justify-content: center;
     padding-top: 94px; 
     padding-bottom: 94px;
 }
 .solution-item{
-    padding-left: 30px;
-    width: 270px;
+    flex-basis: 270px;
+
 }
 .detail-title{
     font-family: 'Roboto';
@@ -235,6 +237,8 @@ li{
 }
 .footer{
     background: var(--titles-color);
+}
+.footer>.container{
     height: 252px;
     padding: 60px 0;
 }
