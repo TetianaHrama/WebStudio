@@ -148,6 +148,10 @@ li{
     padding-bottom: 94px;
     background-color: var(--section-background);
 }
+.team-list{
+    display: flex;
+    justify-content: space-around;
+}
 .team-item{
     background-color: var(--white-text-color);
     height: 368px;
@@ -200,18 +204,40 @@ li{
     justify-content: center;
     gap: 11px;
 }
+.gallery-item-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 38px;
+    background-color: var(--section-background);
+    border-radius: 5px;
+}
+.gallery-item-all:hover{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+.gallery-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: var(--section-background);
+}
+.gallery-item:hover{
+    background-color: var(--accent-color);
+}
 .gallery-link{
     color: var(--titles-color);
-    text-align: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    background-color: var(--section-background);
 }
 .gallery-link:hover{
     color: var(--white-text-color);
-    background-color: var(--accent-color);
 }
 .gallery-title{
     color: var(--titles-color);
@@ -231,7 +257,6 @@ li{
 }
 .second-gallery-section{
     flex-basis: calc((100% - 90px) /3);
-    /*I don't know why it don't work properly:(*/
 }
 .second-gallery-item{
     border: 2px solid #EEEE;
@@ -261,7 +286,7 @@ li{
     font-weight: 700;
     line-height: 1.3px;
 }
-.footer-item{
+.footer-list{
     display: flex;
     flex-direction: column;
     color: var(--white-text-color);
