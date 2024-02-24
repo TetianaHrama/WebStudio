@@ -197,7 +197,6 @@ li{
     display: flex;
     justify-content: center;
     gap: 90px;
-    /*I don't know how to measure gap because there's no on the layout*/
 }
 .gallery-list{
     display: flex;
@@ -223,6 +222,8 @@ li{
     align-items: center;
     border-radius: 5px;
     background-color: var(--section-background);
+    width: 120px;
+    height: 38px;
 }
 .gallery-item:hover{
     background-color: var(--accent-color);
