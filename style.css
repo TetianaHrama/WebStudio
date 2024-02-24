@@ -221,8 +221,6 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 38px;
     border-radius: 5px;
     background-color: var(--section-background);
 }
@@ -231,7 +229,7 @@ li{
 }
 .gallery-link{
     color: var(--titles-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -255,10 +253,13 @@ li{
     font-weight: 400;
     padding: 24px;
 }
-.second-gallery-section{
-    flex-basis: calc((100% - 90px) /3);
+.second-gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .second-gallery-item{
+    flex-basis: calc((100% - 60px) /3);
     border: 2px solid #EEEE;
     
 }
