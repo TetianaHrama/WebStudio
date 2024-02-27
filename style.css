@@ -47,7 +47,7 @@ li{
     font-style: normal;
     font-weight: 500;
     line-height: 1.3px;
-    padding: 32px;
+    padding: 15px;
 }
 .nav-link:hover{
     color: var(--accent-color);
@@ -55,15 +55,49 @@ li{
 .list-item{
     display: inline-block;
 }
-.list-link{
+.list-link-email{
+    display: flex;
+    justify-content: end;
     color: var(--main-text-color);
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    padding: 32px;
+    padding: 30px;
 }
-.list-link:hover{
+.list-link-email::before{
+    content: "";
+    display: block;
+    height: 12px;
+    width: 16px;
+    background-image: url(./images/envelope\(hover\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.list-link-number{
+    display: flex;
+    justify-content: end;
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 30px;
+}
+.list-link-number::before{
+    content: "";
+    display: block;
+    width: 16px;
+    background-image: url(./images/smartphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.list-link-number:hover{
+    color: var(--accent-color);
+}
+.list-link-email:hover{
     color: var(--accent-color);
 }
 .section-solution{
@@ -105,14 +139,78 @@ li{
 }
 .solution-item{
     flex-basis: 270px;
-
 }
-.detail-title{
+.detail-title-one{
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+}
+.detail-title-one::before{
+    content: "";
+    display: block;
+    background-image: url(./images/antenna1.png);
+    background-position: center;
+    width: 250px;
+    height: 120px;
+    background-color: var(--section-background);
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+.detail-title-two{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.detail-title-two::before{
+    content: "";
+    display: block;
+    background-image: url(./images/clock1.png);
+    background-position: center;
+    width: 250px;
+    height: 120px;
+    background-color: var(--section-background);
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+.detail-title-three{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.detail-title-three::before{
+    content: "";
+    display: block;
+    background-image: url(./images/diagram1.png);
+    background-position: center;
+    width: 250px;
+    height: 120px;
+    background-color: var(--section-background);
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+.detail-title-four{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.detail-title-four::before{
+    content: "";
+    display: block;
+    background-image: url(./images/astronaut1.png);
+    background-position: center;
+    width: 250px;
+    height: 120px;
+    background-color: var(--section-background);
+    background-size: 70px;
+    background-repeat: no-repeat;
 }
 .detail-paragraph{
     color: var(--main-text-color);
