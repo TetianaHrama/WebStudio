@@ -101,7 +101,8 @@ li{
     color: var(--accent-color);
 }
 .section-solution{
-    background: var(--titles-color);
+    background-image: url(./images/Img.png);
+    background-repeat: no-repeat;
     padding-bottom: 280px;
     margin: 0 auto;
 }
@@ -134,8 +135,8 @@ li{
 .solution-list{
     display: flex;
     justify-content: center;
-    padding-top: 94px; 
-    padding-bottom: 94px;
+    padding-top: 10px; 
+    padding-bottom: 45px;
 }
 .solution-item{
     flex-basis: 270px;
@@ -252,7 +253,7 @@ li{
 }
 .team-item{
     background-color: var(--white-text-color);
-    height: 368px;
+    height: 428px;
     width: 270px;
     border-radius: 10px;
 }
@@ -281,6 +282,15 @@ li{
 }
 .team-image{
     width: 270px;
+}
+.link-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px;
+}
+.icon:hover{
+    background-color: var(--accent-color);
 }
 .section-customer{
     padding-top: 94px;
