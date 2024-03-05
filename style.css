@@ -101,9 +101,9 @@ li{
     color: var(--accent-color);
 }
 .section-solution{
-    background-image: url(./images/Img.png);
+    background-image: linear-gradient(0deg, rgba(88,204,72,0.14618347338935578) 0%, rgba(227,222,61,0.0985644257703081) 100%), url(./images/Img.png);
     background-repeat: no-repeat;
-    padding-bottom: 280px;
+    padding-bottom: 160px;
     margin: 0 auto;
 }
 .solutions-title{
