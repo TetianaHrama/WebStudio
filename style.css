@@ -256,8 +256,13 @@ li{
     height: 428px;
     width: 270px;
     border-radius: 10px;
+    
 }
-/*In the layout there's no icons so I don't know what to do with it*/
+.team-item:hover{
+    box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
+}
 .team-title{
     text-align: center;
     padding-bottom: 50px;
@@ -289,6 +294,9 @@ li{
     gap: 20px;
     padding-top: 15px;
 }
+.icon{
+    background-color: var(--white-text-color);
+}
 .icon:hover{
     background-color: var(--accent-color);
 }
@@ -304,7 +312,16 @@ li{
 .customer-list{
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 30px;
+}
+.customer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 2px solid var(--main-text-color);
+    border-radius: 3px;
 }
 .gallery-list{
     display: flex;
@@ -405,6 +422,15 @@ li{
     font-style: normal;
     font-weight: 400;
 }
+/*.email-form{
+    display: flex;
+    justify-content: end;
+    color: var(--white-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}*/
 .footer-link{
     color:var(--main-text-color);
 } 
