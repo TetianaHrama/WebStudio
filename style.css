@@ -394,7 +394,8 @@ li{
     
 }
 .footer{
-    background: var(--titles-color);
+    background-color: var(--titles-color);
+    background-size: cover;
 }
 .footer>.container{
     height: 252px;
