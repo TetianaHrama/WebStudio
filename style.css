@@ -423,6 +423,14 @@ li{
     font-style: normal;
     font-weight: 400;
 }
+.footer-link:hover{
+    color: var(--accent-color);
+}
+.contact-link{
+    width: 44px;
+    height: 44px;
+    background-color: #757575;
+}
 /*.email-form{
     color: var(--white-text-color);
     font-family: 'Roboto';
