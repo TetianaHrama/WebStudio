@@ -54,6 +54,7 @@ li{
 }
 .list-item{
     display: inline-block;
+   
 }
 .list-link-email{
     display: flex;
@@ -64,6 +65,7 @@ li{
     font-style: normal;
     font-weight: 500;
     padding: 30px;
+    align-items: center;
 }
 .list-link-email::before{
     content: "";
@@ -74,6 +76,7 @@ li{
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 5px;
+    
 }
 .list-link-number{
     display: flex;
@@ -103,6 +106,7 @@ li{
 .section-solution{
     background-image: linear-gradient(0deg, rgba(88,204,72,0.14618347338935578) 0%, rgba(227,222,61,0.0985644257703081) 100%), url(./images/Img.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 160px;
     margin: 0 auto;
 }
@@ -256,10 +260,7 @@ li{
     height: 428px;
     width: 270px;
     border-radius: 10px;
-    
-}
-.team-item:hover{
-    box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
+     box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 5px 11px 0px rgba(0,0,0,0.75);
 }
@@ -423,8 +424,6 @@ li{
     font-weight: 400;
 }
 /*.email-form{
-    display: flex;
-    justify-content: end;
     color: var(--white-text-color);
     font-family: 'Roboto';
     font-size: 14px;
