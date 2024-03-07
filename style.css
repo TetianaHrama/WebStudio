@@ -250,6 +250,7 @@ li{
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--section-background);
+    background-size: contain;
 }
 .team-list{
     display: flex;
@@ -257,6 +258,7 @@ li{
 }
 .team-item{
     background-color: var(--white-text-color);
+    background-size: cover;
     height: 428px;
     width: 270px;
     border-radius: 10px;
@@ -348,6 +350,7 @@ li{
     align-items: center;
     border-radius: 5px;
     background-color: var(--section-background);
+    background-size: cover;
     width: 120px;
     height: 38px;
 }
